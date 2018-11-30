@@ -1,5 +1,4 @@
 # -*- coding: UTF-8 -*-
-from matplotlib.font_manager import FontProperties
 import matplotlib.lines as mlines
 import matplotlib.pyplot as plt
 import numpy as np
@@ -63,22 +62,6 @@ def showDatas(data, label):
     # 添加图例
     axs[0][0].legend(handles=[hate, like, love])
     plt.show()
-
-
-
-"""
-函数说明:对数据进行归一化
-
-Parameters:
-    dataSet - 特征矩阵
-Returns:
-    normDataSet - 归一化后的特征矩阵
-    ranges - 数据范围
-    minVals - 数据最小值
-
-Modify:
-    2017-03-24
-"""
 
 
 def autoNorm(dataSet):

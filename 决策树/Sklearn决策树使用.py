@@ -13,12 +13,13 @@ def getDataSet(filename):
 
 
 if __name__ == '__main__':
-    data = getDataSet('隐形眼镜数据集.txt')
-    data_target = []
+    data = getDataSet('datingSet.txt')
     # 得到已有的数据标签集
+    data_target = []
     for each in data:
         data_target.append(each[-1])
-    dataLabels = ['age', 'prescript', 'astigmatic', 'tearRate']
+    # 属性（特征）列表
+    dataLabels = ['A', 'B', 'C', ]
     data_list = []
     data_dict = {}
     for each_label in dataLabels:
@@ -34,12 +35,12 @@ if __name__ == '__main__':
         lenses_pd[col] = le.fit_transform(lenses_pd[col])
     # 创建DecisionTreeClassifier()类
     clf = tree.DecisionTreeClassifier(max_depth=4)
-    # 构建决策树
+    # 构建决策树进行训练
     clf = clf.fit(lenses_pd.values.tolist(), data_target)
     dot_data = StringIO()
     tree.export_graphviz(clf, out_file=dot_data, feature_names=lenses_pd.keys(),
-                         class_names=clf.classes_, filled=True, rounded=True,special_characters=True)
+                         class_names=clf.classes_, filled=True, rounded=True, special_characters=True)
     graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
     graph.write_pdf("tree.pdf")
     # 尝试预测
-    print(clf.predict([[1, 1, 1, 0]]))
+    print(clf.predict([[1, 1, 1]]))

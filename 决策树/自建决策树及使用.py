@@ -29,10 +29,10 @@ def caculateShannonEnt(dataSet):
     return ShannonEntropy
 
 
-# 返回第axis个特征为value的数据集
+
 def splitDataSet(dataSet, axis, value):
     '''
-
+    返回第axis个特征为value的数据集
     :param dataSet: 数据集
     :param axis: 子数据集的属性下标
     :param value: 子数据集该下标属性的取值
@@ -99,7 +99,7 @@ def maxCount(labelList):
 
 def createTree(dataSet, labels, featLabels):
     '''
-    递归创建决策树
+    递归创建决策树字典
     :param dataSet: 数据集
     :param labels:
     :param featLabels:
@@ -133,7 +133,7 @@ def createTree(dataSet, labels, featLabels):
 
 def getNumLeafs(myTree):
     '''
-    得到决策树所有的叶子节点
+    得到决策树所有的叶子节点数目
     :param myTree: 字典型决策树
     :return: 叶子节点数
     '''
@@ -153,7 +153,7 @@ def getTreeDepth(myTree):
     '''
 
     :param myTree: 字典型决策树
-    :return: 决策树层数
+    :return: 决策树深度（也就是决策树层数）
     '''
     maxDepth = 0
     firstStr = next(iter(myTree))
@@ -165,25 +165,6 @@ def getTreeDepth(myTree):
             thisDepth = 1
         if thisDepth > maxDepth: maxDepth = thisDepth
     return maxDepth
-
-
-def createPlot(inTree):
-    '''
-
-    :param inTree:
-    :return:
-    '''
-    fig = plt.figure(1, facecolor='white')
-    fig.clf()
-    axprops = dict(xticks=[], yticks=[])
-    # 去掉x、y轴
-    createPlot.ax1 = plt.subplot(111, frameon=False, **axprops)
-    plotTree.totalW = float(getNumLeafs(inTree))
-    plotTree.totalD = float(getTreeDepth(inTree))
-    # x偏移
-    plotTree.xOff = -0.5/plotTree.totalW; plotTree.yOff = 1.0
-    plotTree(inTree, (0.5, 1.0), '')
-    plt.show()
 
 
 def plotNode(nodeTxt, centerPt, parentPt, nodeType):
