@@ -8,7 +8,7 @@ from KNN import classification
 
 def parseFile(filename):
     '''
-
+    解析文件
     :param filename: 解析的文件名称（含路径）
     :return: 特征矩阵及标签集
     '''
