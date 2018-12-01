@@ -8,6 +8,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
 
+
+
 def getDataSet(fileName):
     # 读取数据
     dataSet = []
@@ -47,6 +49,8 @@ def divide(dataSet, labels):
 if __name__ == '__main__':
     file = './data/datingSet.txt'
     data, labels = getDataSet(file)
+    print(data)
+    print(labels)
     data = scale(data)
     train_data, test_data, train_label, test_label = divide(data, labels)
     # 创建高斯分布模型
