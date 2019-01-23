@@ -8,8 +8,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
 
-
-
 def getDataSet(fileName):
     # 读取数据
     dataSet = []
