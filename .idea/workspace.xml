@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f54d330b-a9f9-4dd7-bc9a-2acf0628567b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/分类问题/朴素贝叶斯/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/分类问题/朴素贝叶斯/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/分类问题/朴素贝叶斯/自行编写NBC.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="81" column="23" selection-end-line="132" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/分类问题/朴素贝叶斯/sklearn实现NBC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="122" column="14" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
+            <state relative-caret-position="30">
+              <caret line="130" column="19" selection-end-line="143" />
               <folding>
                 <element signature="e#23#42#0" expanded="true" />
               </folding>
@@ -404,12 +395,12 @@
       <workItem from="1544011700507" duration="1949000" />
       <workItem from="1545134828287" duration="1960000" />
       <workItem from="1548068858381" duration="8273000" />
-      <workItem from="1548322539729" duration="3940000" />
+      <workItem from="1548322539729" duration="4256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62638000" />
+    <option name="totallyTimeSpent" value="62954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,15 +604,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/分类问题/朴素贝叶斯/自行编写NBC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="81" column="23" selection-end-line="132" />
+        <state relative-caret-position="95">
+          <caret line="41" column="22" lean-forward="true" selection-end-line="132" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/分类问题/朴素贝叶斯/sklearn实现NBC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="122" column="14" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="130" column="19" selection-end-line="143" />
           <folding>
             <element signature="e#23#42#0" expanded="true" />
           </folding>

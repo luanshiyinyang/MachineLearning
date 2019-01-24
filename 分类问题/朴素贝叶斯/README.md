@@ -97,4 +97,4 @@
 				- BernoulliNB就是先验为伯努利分布的朴素贝叶斯。
 - 补充说明
 	- 参考书为《Python3数据分析与机器学习实战》
-	- 数据集和源码可以查看我的GitHub，欢迎star或者fork。
+	- 数据集和源码可以查看我的[GitHub](https://github.com/luanshiyinyang/MachineLearning/tree/master/%E5%88%86%E7%B1%BB%E9%97%AE%E9%A2%98/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF)，欢迎star或者fork。
