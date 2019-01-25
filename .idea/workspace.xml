@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f54d330b-a9f9-4dd7-bc9a-2acf0628567b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/分类问题/朴素贝叶斯/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/分类问题/朴素贝叶斯/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +33,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/分类问题/朴素贝叶斯/sklearn实现NBC.py">
+        <entry file="file://$PROJECT_DIR$/分类问题/支持向量机/自行编写SVM分类.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="130" column="19" selection-end-line="143" />
-              <folding>
-                <element signature="e#23#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="297" column="23" lean-forward="true" selection-end-line="302" />
             </state>
           </provider>
         </entry>
@@ -57,6 +54,8 @@
     <findStrings>
       <find>print</find>
       <find>530101</find>
+      <find>selectJrand</find>
+      <find>selectJ</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,13 +84,14 @@
         <option value="$PROJECT_DIR$/分类问题/k-近邻算法/sklearn实现KNN算法.py" />
         <option value="$PROJECT_DIR$/分类问题/朴素贝叶斯/自行编写NBC.py" />
         <option value="$PROJECT_DIR$/分类问题/朴素贝叶斯/sklearn实现NBC.py" />
+        <option value="$PROJECT_DIR$/分类问题/支持向量机/自行编写SVM分类.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="950" />
+    <option name="width" value="977" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -101,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,20 +118,19 @@
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="分类问题" type="462c0819:PsiDirectoryNode" />
-              <item name="朴素贝叶斯" type="462c0819:PsiDirectoryNode" />
+              <item name="支持向量机" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="分类问题" type="462c0819:PsiDirectoryNode" />
-              <item name="朴素贝叶斯" type="462c0819:PsiDirectoryNode" />
+              <item name="支持向量机" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,15 +140,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\k-近邻算法\data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\支持向量机\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\朴素贝叶斯" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\k-近邻算法" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\朴素贝叶斯\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\朴素贝叶斯\email" />
-      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\决策树" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\k-近邻算法\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -163,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sklearn实现NBC">
+  <component name="RunManager" selected="Python.自行编写SVM分类">
     <configuration name="自行编写KNN算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,6 +190,9 @@
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/朴素贝叶斯" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -205,17 +208,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="自建决策树及使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="自行编写SVM分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/决策树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/支持向量机" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/决策树/自建决策树及使用.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分类问题/支持向量机/自行编写SVM分类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,28 +290,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sklearn朴素贝叶斯使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/朴素贝叶斯" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/朴素贝叶斯/sklearn朴素贝叶斯使用.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sklearn实现KNN算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -335,6 +316,9 @@
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/朴素贝叶斯" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -352,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.自行编写SVM分类" />
         <item itemvalue="Python.sklearn实现NBC" />
         <item itemvalue="Python.自行编写NBC" />
         <item itemvalue="Python.sklearn实现KNN算法" />
         <item itemvalue="Python.自行编写KNN算法" />
-        <item itemvalue="Python.sklearn朴素贝叶斯使用" />
       </list>
     </recent_temporary>
   </component>
@@ -395,12 +379,13 @@
       <workItem from="1544011700507" duration="1949000" />
       <workItem from="1545134828287" duration="1960000" />
       <workItem from="1548068858381" duration="8273000" />
-      <workItem from="1548322539729" duration="4256000" />
+      <workItem from="1548322539729" duration="4446000" />
+      <workItem from="1548387675756" duration="3150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62954000" />
+    <option name="totallyTimeSpent" value="66294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +400,7 @@
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3488372" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3534884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -483,9 +468,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/README.md" />
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/email/ham/1.txt" />
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/email/spam/1.txt" />
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/email/spam/2.txt" />
@@ -522,9 +505,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/data/horseColicTrain.txt" />
     <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/data/horseColicTest.txt" />
-    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/data/datingSet.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/data/datingSet.txt" />
     <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/data/rawdata.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -553,16 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/sklearn朴素贝叶斯使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding>
-            <element signature="e#44#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/sklearn朴素贝叶斯使用.py" />
     <entry file="file://$PROJECT_DIR$/近邻算法/KNN实战.py" />
     <entry file="file://$PROJECT_DIR$/近邻算法/KNN.py" />
     <entry file="file://$PROJECT_DIR$/分类问题/k-近邻算法/data/datingTestSet2.txt">
@@ -616,6 +588,16 @@
           <folding>
             <element signature="e#23#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分类问题/支持向量机/data/trainingDigits/1_0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分类问题/支持向量机/自行编写SVM分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="297" column="23" lean-forward="true" selection-end-line="302" />
         </state>
       </provider>
     </entry>
