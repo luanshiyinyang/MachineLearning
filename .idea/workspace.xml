@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f54d330b-a9f9-4dd7-bc9a-2acf0628567b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/分类问题/AdaBoost算法/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/分类问题/AdaBoost算法/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/分类问题/支持向量机/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/分类问题/支持向量机/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,13 +76,14 @@
         <option value="$PROJECT_DIR$/分类问题/朴素贝叶斯/sklearn实现NBC.py" />
         <option value="$PROJECT_DIR$/分类问题/支持向量机/自行编写SVM分类.py" />
         <option value="$PROJECT_DIR$/分类问题/AdaBoost算法/自行编写AdaBoost算法.py" />
+        <option value="$PROJECT_DIR$/分类问题/决策树/使用sklearn决策树CART算法.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="width" value="980" />
-    <option name="height" value="1042" />
+    <option name="x" value="944" />
+    <option name="width" value="983" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -93,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,10 +105,17 @@
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="分类问题" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="分类问题" type="462c0819:PsiDirectoryNode" />
+              <item name="决策树" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,15 +125,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\k-近邻算法\data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\决策树\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\支持向量机\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\朴素贝叶斯" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\k-近邻算法" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\朴素贝叶斯\data" />
-      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\朴素贝叶斯\email" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\k-近邻算法\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -142,11 +148,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.自行编写AdaBoost算法">
+  <component name="RunManager" selected="Python.使用sklearn决策树CART算法">
     <configuration name="自行编写AdaBoost算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/AdaBoost算法" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -206,28 +215,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="使用脚本" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/决策树" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Work\Python workspace\PycharmProjects\MachineLearning\决策树\自建决策树及使用.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,20 +237,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sklearn实现KNN算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="使用sklearn决策树CART算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/k-近邻算法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/决策树" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分类问题/k-近邻算法/sklearn实现KNN算法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分类问题/决策树/使用sklearn决策树CART算法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.使用sklearn决策树CART算法" />
         <item itemvalue="Python.自行编写AdaBoost算法" />
         <item itemvalue="Python.自行编写SVM分类" />
         <item itemvalue="Python.sklearn实现NBC" />
         <item itemvalue="Python.自行编写NBC" />
-        <item itemvalue="Python.sklearn实现KNN算法" />
       </list>
     </recent_temporary>
   </component>
@@ -343,11 +327,14 @@
       <workItem from="1548387675756" duration="3757000" />
       <workItem from="1548487816198" duration="678000" />
       <workItem from="1548494837762" duration="3198000" />
+      <workItem from="1548663285676" duration="594000" />
+      <workItem from="1550037177987" duration="3000" />
+      <workItem from="1551426600393" duration="1471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70777000" />
+    <option name="totallyTimeSpent" value="72845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,7 +348,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3627907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3780731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,7 +363,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32959327" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.36886394" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.38148668" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.3772791" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -555,20 +542,33 @@
     <entry file="file://$PROJECT_DIR$/分类问题/支持向量机/data/trainingDigits/1_0.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/分类问题/AdaBoost算法/自行编写AdaBoost算法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="171" column="34" lean-forward="true" selection-start-line="171" selection-start-column="34" selection-end-line="171" selection-end-column="34" />
-          <folding>
-            <element signature="e#15#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/分类问题/支持向量机/自行编写SVM分类.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="289" column="7" lean-forward="true" selection-end-line="302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分类问题/AdaBoost算法/自行编写AdaBoost算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3249">
+          <caret line="171" column="34" lean-forward="true" selection-start-line="171" selection-start-column="34" selection-end-line="171" selection-end-column="34" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分类问题/决策树/data/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分类问题/决策树/使用sklearn决策树CART算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
