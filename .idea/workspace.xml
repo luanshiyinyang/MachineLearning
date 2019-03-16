@@ -32,25 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/分类问题/决策树/使用sklearn决策树CART算法.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/预测分析/时间序列分析预测法/十年数据趋势预测.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="18" column="25" selection-end-line="54" />
+            <state relative-caret-position="211">
+              <caret line="118" column="76" selection-start-line="118" selection-start-column="76" selection-end-line="118" selection-end-column="76" />
+              <folding>
+                <element signature="e#21#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/分类问题/决策树/使用sklearn决策树分类iris数据集.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -100,13 +96,15 @@
         <option value="$PROJECT_DIR$/分类问题/AdaBoost算法/自行编写AdaBoost算法.py" />
         <option value="$PROJECT_DIR$/分类问题/决策树/使用sklearn决策树CART算法.py" />
         <option value="$PROJECT_DIR$/分类问题/决策树/使用sklearn决策树分类iris数据集.py" />
+        <option value="$PROJECT_DIR$/分类问题/多层感知机/葡萄酒数据集分类.py" />
+        <option value="$PROJECT_DIR$/预测分析/时间序列分析预测法/十年数据趋势预测.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="944" />
-    <option name="width" value="983" />
-    <option name="height" value="1045" />
+    <option name="x" value="942" />
+    <option name="width" value="986" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -131,8 +129,20 @@
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="分类问题" type="462c0819:PsiDirectoryNode" />
-              <item name="多层感知机" type="462c0819:PsiDirectoryNode" />
+              <item name="预测分析" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="预测分析" type="462c0819:PsiDirectoryNode" />
+              <item name="时间序列分析预测法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="预测分析" type="462c0819:PsiDirectoryNode" />
+              <item name="时间序列分析预测法" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,18 +155,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\k-近邻算法\data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\预测分析\时间序列分析预测法\data" />
+      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\多层感知机\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\决策树\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\支持向量机\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\朴素贝叶斯" />
-      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\k-近邻算法" />
-      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\朴素贝叶斯\data" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\k-近邻算法\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,11 +181,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.葡萄酒数据集分类">
+  <component name="RunManager" selected="Python.十年数据趋势预测">
     <configuration name="葡萄酒数据集分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/多层感知机" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -183,6 +196,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分类问题/多层感知机/葡萄酒数据集分类.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="十年数据趋势预测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/预测分析/时间序列分析预测法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/预测分析/时间序列分析预测法/十年数据趋势预测.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,28 +237,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分类问题/AdaBoost算法/自行编写AdaBoost算法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="自行编写SVM分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/支持向量机" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分类问题/支持向量机/自行编写SVM分类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,6 +271,9 @@
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/决策树" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -280,6 +293,9 @@
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/决策树" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -297,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.十年数据趋势预测" />
         <item itemvalue="Python.葡萄酒数据集分类" />
         <item itemvalue="Python.使用sklearn决策树分类iris数据集" />
         <item itemvalue="Python.使用sklearn决策树CART算法" />
         <item itemvalue="Python.自行编写AdaBoost算法" />
-        <item itemvalue="Python.自行编写SVM分类" />
       </list>
     </recent_temporary>
   </component>
@@ -346,12 +362,14 @@
       <workItem from="1548494837762" duration="3198000" />
       <workItem from="1548663285676" duration="594000" />
       <workItem from="1550037177987" duration="3000" />
-      <workItem from="1551426600393" duration="3497000" />
+      <workItem from="1551426600393" duration="4231000" />
+      <workItem from="1552648347496" duration="1584000" />
+      <workItem from="1552699624460" duration="3910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74871000" />
+    <option name="totallyTimeSpent" value="81099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,7 +383,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3780731" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17275748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -380,11 +398,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32959327" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.36886394" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.47124824" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.21879382" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49509117" weight="0.2757475" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49509117" visible="true" weight="0.807309" />
       <window_info anchor="right" id="Database" order="4" weight="0.32956812" />
       <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="5" sideWeight="0.50490886" side_tool="true" weight="0.2757475" />
     </layout>
@@ -398,9 +416,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/近邻算法/datingTestSet.txt" />
     <entry file="file://$PROJECT_DIR$/近邻算法/k-近邻实战之完整可用系统.py" />
-    <entry file="file://$PROJECT_DIR$/决策树/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/决策树/README.md" />
     <entry file="file://$USER_HOME$/Anaconda3/envs/MachineLearning/Lib/site-packages/matplotlib/axes/_axes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-932">
@@ -408,13 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/决策树/隐形眼镜数据集.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/决策树/隐形眼镜数据集.txt" />
     <entry file="file://$PROJECT_DIR$/近邻算法/README.md" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/74793812/Cython/Compiler/FusedNode.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -423,27 +433,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/决策树/自建决策树及使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="182" column="36" lean-forward="true" selection-start-line="182" selection-start-column="36" selection-end-line="182" selection-end-column="36" />
-          <folding>
-            <element signature="e#24#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/决策树/自建决策树及使用.py" />
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/README.md" />
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/email/ham/1.txt" />
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/email/spam/1.txt" />
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/email/spam/2.txt" />
-    <entry file="file://$PROJECT_DIR$/决策树/datingSet.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/决策树/datingSet.txt" />
     <entry file="file://$USER_HOME$/Anaconda3/envs/MachineLearning/Lib/site-packages/sklearn/metrics/classification.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-878">
@@ -485,13 +480,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/决策树/Sklearn决策树使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/决策树/Sklearn决策树使用.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -521,13 +510,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/分类问题/朴素贝叶斯/data/spam/1.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/分类问题/k-近邻算法/自行编写KNN算法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/分类问题/k-近邻算法/sklearn实现KNN算法.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -592,9 +574,42 @@
     <entry file="file://$PROJECT_DIR$/分类问题/决策树/使用sklearn决策树分类iris数据集.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分类问题/多层感知机/data/wine.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分类问题/多层感知机/葡萄酒数据集分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分类问题/k-近邻算法/自行编写KNN算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/预测分析/时间序列分析预测法/data/data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/预测分析/时间序列分析预测法/十年数据趋势预测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="118" column="76" selection-start-line="118" selection-start-column="76" selection-end-line="118" selection-end-column="76" />
+          <folding>
+            <element signature="e#21#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
