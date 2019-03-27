@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f54d330b-a9f9-4dd7-bc9a-2acf0628567b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,21 +33,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/预测分析/BP神经网络模型/预测公路运量.py">
+        <entry file="file://$PROJECT_DIR$/关联分析/Apriori算法/Apriori算法简单商品购买关联规则发现.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#105#128#0" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="131" column="26" lean-forward="true" selection-end-line="135" selection-end-column="16" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/预测分析/BP神经网络模型/errorhistory.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -102,13 +92,15 @@
         <option value="$PROJECT_DIR$/预测分析/时间序列分析预测法/十年数据趋势预测.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/预测分析/BP神经网络模型/预测公路运量.py" />
+        <option value="$PROJECT_DIR$/关联分析/Apriori算法/Apriori算法简单商品购买关联规则发现.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="940" />
-    <option name="width" value="987" />
-    <option name="height" value="1049" />
+    <option name="x" value="504" />
+    <option name="y" value="30" />
+    <option name="width" value="988" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -129,19 +121,13 @@
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="预测分析" type="462c0819:PsiDirectoryNode" />
+              <item name="关联分析" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="预测分析" type="462c0819:PsiDirectoryNode" />
-              <item name="BP神经网络模型" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="预测分析" type="462c0819:PsiDirectoryNode" />
-              <item name="时间序列分析预测法" type="462c0819:PsiDirectoryNode" />
+              <item name="关联分析" type="462c0819:PsiDirectoryNode" />
+              <item name="Apriori算法" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.预测公路运量">
+  <component name="RunManager" selected="Python.Apriori算法简单商品购买关联规则发现">
     <configuration name="葡萄酒数据集分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,25 +188,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="预测公路运量" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/预测分析/BP神经网络模型" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/预测分析/BP神经网络模型/预测公路运量.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="自行编写AdaBoost算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,6 +202,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分类问题/AdaBoost算法/自行编写AdaBoost算法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Apriori算法简单商品购买关联规则发现" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/关联分析/Apriori算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/关联分析/Apriori算法/Apriori算法简单商品购买关联规则发现.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="预测公路运量" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/预测分析/BP神经网络模型" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/预测分析/BP神经网络模型/预测公路运量.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,7 +335,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.预测公路运量" />
+        <item itemvalue="Python.Apriori算法简单商品购买关联规则发现" />
         <item itemvalue="Python.葡萄酒数据集分类" />
         <item itemvalue="Python.使用sklearn决策树分类iris数据集" />
         <item itemvalue="Python.使用sklearn决策树CART算法" />
@@ -382,12 +387,13 @@
       <workItem from="1551426600393" duration="4231000" />
       <workItem from="1552648347496" duration="1584000" />
       <workItem from="1552699624460" duration="4302000" />
-      <workItem from="1552806675199" duration="3329000" />
+      <workItem from="1552806675199" duration="4029000" />
+      <workItem from="1553681283313" duration="2191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84820000" />
+    <option name="totallyTimeSpent" value="87711000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,8 +406,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24518272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24850498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,11 +423,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32959327" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.36886394" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.09537167" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.22159888" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49509117" visible="true" weight="0.641196" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49509117" visible="true" weight="0.20730896" />
       <window_info anchor="right" id="Database" order="4" weight="0.32956812" />
       <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="5" sideWeight="0.50490886" side_tool="true" weight="0.2757475" />
     </layout>
@@ -641,12 +648,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/预测分析/BP神经网络模型/预测公路运量.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="127" column="30" lean-forward="true" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#105#128#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/关联分析/Apriori算法/Apriori算法简单商品购买关联规则发现.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="131" column="26" lean-forward="true" selection-end-line="135" selection-end-column="16" />
         </state>
       </provider>
     </entry>
