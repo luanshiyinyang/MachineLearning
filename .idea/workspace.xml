@@ -33,10 +33,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/关联分析/Apriori算法/Apriori算法简单商品购买关联规则发现.py">
+        <entry file="file://$PROJECT_DIR$/关联分析/FP-Growth算法/挖掘文本事物数据频繁项集.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="131" column="26" lean-forward="true" selection-end-line="135" selection-end-column="16" />
+            <state relative-caret-position="202">
+              <caret line="172" column="27" selection-end-line="174" />
             </state>
           </provider>
         </entry>
@@ -93,14 +93,15 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/预测分析/BP神经网络模型/预测公路运量.py" />
         <option value="$PROJECT_DIR$/关联分析/Apriori算法/Apriori算法简单商品购买关联规则发现.py" />
+        <option value="$PROJECT_DIR$/关联分析/FP-Growth算法/挖掘文本事物数据频繁项集.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="504" />
-    <option name="y" value="30" />
-    <option name="width" value="988" />
-    <option name="height" value="1050" />
+    <option name="x" value="251" />
+    <option name="y" value="35" />
+    <option name="width" value="1531" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -110,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,12 +127,13 @@
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="关联分析" type="462c0819:PsiDirectoryNode" />
-              <item name="Apriori算法" type="462c0819:PsiDirectoryNode" />
+              <item name="FP-Growth算法" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Apriori算法简单商品购买关联规则发现">
+  <component name="RunManager" selected="Python.挖掘文本事物数据频繁项集">
     <configuration name="葡萄酒数据集分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,20 +189,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="自行编写AdaBoost算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="挖掘文本事物数据频繁项集" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/AdaBoost算法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/关联分析/FP-Growth算法" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分类问题/AdaBoost算法/自行编写AdaBoost算法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/关联分析/FP-Growth算法/挖掘文本事物数据频繁项集.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,6 +212,9 @@
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/关联分析/Apriori算法" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -335,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.挖掘文本事物数据频繁项集" />
         <item itemvalue="Python.Apriori算法简单商品购买关联规则发现" />
         <item itemvalue="Python.葡萄酒数据集分类" />
         <item itemvalue="Python.使用sklearn决策树分类iris数据集" />
         <item itemvalue="Python.使用sklearn决策树CART算法" />
-        <item itemvalue="Python.自行编写AdaBoost算法" />
       </list>
     </recent_temporary>
   </component>
@@ -388,12 +389,13 @@
       <workItem from="1552648347496" duration="1584000" />
       <workItem from="1552699624460" duration="4302000" />
       <workItem from="1552806675199" duration="4029000" />
-      <workItem from="1553681283313" duration="2191000" />
+      <workItem from="1553681283313" duration="2582000" />
+      <workItem from="1553858407727" duration="2050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87711000" />
+    <option name="totallyTimeSpent" value="90152000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,7 +410,7 @@
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24850498" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25182724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -421,9 +423,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32959327" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033224" side_tool="true" weight="0.44460028" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.36886394" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.22159888" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49966776" visible="true" weight="0.4333801" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -659,8 +661,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/关联分析/Apriori算法/Apriori算法简单商品购买关联规则发现.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="131" column="26" lean-forward="true" selection-end-line="135" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/关联分析/FP-Growth算法/挖掘文本事物数据频繁项集.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="172" column="27" selection-end-line="174" />
         </state>
       </provider>
     </entry>
