@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f54d330b-a9f9-4dd7-bc9a-2acf0628567b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/线性回归之Logistic回归/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/线性回归之Logistic回归/data/rawdata.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/线性回归之Logistic回归/sklearn线性回归之Logistic回归.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,17 +35,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/关联分析/FP-Growth算法/挖掘文本事物数据频繁项集.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="172" column="27" selection-end-line="174" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,7 +67,6 @@
         <option value="$PROJECT_DIR$/决策树/Sklearn决策树使用.py" />
         <option value="$PROJECT_DIR$/近邻算法/KNN实战.py" />
         <option value="$PROJECT_DIR$/决策树/自建决策树及使用.py" />
-        <option value="$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py" />
         <option value="$PROJECT_DIR$/线性回归之Logistic回归/data/rawdata.txt" />
         <option value="$PROJECT_DIR$/线性回归之Logistic回归/data/horseColicTraining.txt" />
         <option value="$PROJECT_DIR$/线性回归之Logistic回归/data/horseColicTest.txt" />
@@ -94,14 +87,15 @@
         <option value="$PROJECT_DIR$/预测分析/BP神经网络模型/预测公路运量.py" />
         <option value="$PROJECT_DIR$/关联分析/Apriori算法/Apriori算法简单商品购买关联规则发现.py" />
         <option value="$PROJECT_DIR$/关联分析/FP-Growth算法/挖掘文本事物数据频繁项集.py" />
+        <option value="$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="251" />
-    <option name="y" value="35" />
-    <option name="width" value="1531" />
-    <option name="height" value="1054" />
+    <option name="x" value="250" />
+    <option name="y" value="34" />
+    <option name="width" value="1533" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -111,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,22 +116,16 @@
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="关联分析" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="关联分析" type="462c0819:PsiDirectoryNode" />
-              <item name="FP-Growth算法" type="462c0819:PsiDirectoryNode" />
+              <item name="集成学习" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -166,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.挖掘文本事物数据频繁项集">
+  <component name="RunManager" selected="Python.预测结果评价">
     <configuration name="葡萄酒数据集分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,17 +178,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="挖掘文本事物数据频繁项集" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="预测结果评价" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/关联分析/FP-Growth算法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习常用脚本" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/关联分析/FP-Growth算法/挖掘文本事物数据频繁项集.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,6 +211,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/关联分析/Apriori算法/Apriori算法简单商品购买关联规则发现.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="挖掘文本事物数据频繁项集" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/关联分析/FP-Growth算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/关联分析/FP-Growth算法/挖掘文本事物数据频繁项集.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,7 +344,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.挖掘文本事物数据频繁项集" />
+        <item itemvalue="Python.预测结果评价" />
         <item itemvalue="Python.Apriori算法简单商品购买关联规则发现" />
         <item itemvalue="Python.葡萄酒数据集分类" />
         <item itemvalue="Python.使用sklearn决策树分类iris数据集" />
@@ -390,12 +398,13 @@
       <workItem from="1552699624460" duration="4302000" />
       <workItem from="1552806675199" duration="4029000" />
       <workItem from="1553681283313" duration="2582000" />
-      <workItem from="1553858407727" duration="2050000" />
+      <workItem from="1553858407727" duration="2300000" />
+      <workItem from="1553947060638" duration="1485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90152000" />
+    <option name="totallyTimeSpent" value="91887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,9 +417,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25182724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2551495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -425,11 +433,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033224" side_tool="true" weight="0.44460028" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.36886394" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49966776" visible="true" weight="0.4333801" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49966776" visible="true" weight="0.5147265" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49509117" visible="true" weight="0.20730896" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49509117" weight="0.44717607" />
       <window_info anchor="right" id="Database" order="4" weight="0.32956812" />
       <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="5" sideWeight="0.50490886" side_tool="true" weight="0.2757475" />
     </layout>
@@ -453,13 +461,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/决策树/隐形眼镜数据集.txt" />
     <entry file="file://$PROJECT_DIR$/近邻算法/README.md" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/74793812/Cython/Compiler/FusedNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="420" column="8" selection-start-line="420" selection-start-column="8" selection-end-line="420" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/74793812/Cython/Compiler/FusedNode.py" />
     <entry file="file://$PROJECT_DIR$/决策树/自建决策树及使用.py" />
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/README.md" />
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/email/ham/1.txt" />
@@ -480,16 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/data/horseColicTrain.txt" />
     <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/data/horseColicTest.txt" />
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/data/datingSet.txt" />
@@ -497,13 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/sklearn线性回归之Logistic回归.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -669,7 +654,24 @@
     <entry file="file://$PROJECT_DIR$/关联分析/FP-Growth算法/挖掘文本事物数据频繁项集.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
-          <caret line="172" column="27" selection-end-line="174" />
+          <caret line="172" column="37" selection-start-line="172" selection-start-column="37" selection-end-line="172" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/sklearn线性回归之Logistic回归.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-876">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

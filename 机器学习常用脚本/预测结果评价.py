@@ -21,3 +21,6 @@ print(AUC)
 # labels表示所有的标签种类个数
 mess = metrics.confusion_matrix(X, Y, labels=[0, 1, 2])
 print(mess)
+
+score = metrics.accuracy_score(X, Y)
+print(score)
