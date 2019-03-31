@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f54d330b-a9f9-4dd7-bc9a-2acf0628567b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线性回归之Logistic回归/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/线性回归之Logistic回归/data/rawdata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/线性回归之Logistic回归/sklearn线性回归之Logistic回归.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/集成学习/Bagging和随机森林/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/集成学习/Bagging和随机森林/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,19 +81,19 @@
         <option value="$PROJECT_DIR$/分类问题/决策树/使用sklearn决策树分类iris数据集.py" />
         <option value="$PROJECT_DIR$/分类问题/多层感知机/葡萄酒数据集分类.py" />
         <option value="$PROJECT_DIR$/预测分析/时间序列分析预测法/十年数据趋势预测.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/预测分析/BP神经网络模型/预测公路运量.py" />
         <option value="$PROJECT_DIR$/关联分析/Apriori算法/Apriori算法简单商品购买关联规则发现.py" />
         <option value="$PROJECT_DIR$/关联分析/FP-Growth算法/挖掘文本事物数据频繁项集.py" />
         <option value="$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py" />
+        <option value="$PROJECT_DIR$/集成学习/Bagging和随机森林/乘客存活概率预测.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="250" />
-    <option name="y" value="34" />
-    <option name="width" value="1533" />
-    <option name="height" value="1055" />
+    <option name="x" value="432" />
+    <option name="width" value="977" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -105,7 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,34 +110,31 @@
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="集成学习" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/集成学习/Bagging和随机森林/data" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\k-近邻算法\data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\集成学习\Bagging和随机森林\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\预测分析\时间序列分析预测法\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\多层感知机\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\决策树\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\支持向量机\data" />
-      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\朴素贝叶斯" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\Python workspace\PycharmProjects\MachineLearning\分类问题\k-近邻算法\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -155,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.预测结果评价">
+  <component name="RunManager" selected="Python.Apriori算法简单商品购买关联规则发现">
     <configuration name="葡萄酒数据集分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,25 +172,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="预测结果评价" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习常用脚本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Apriori算法简单商品购买关联规则发现" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,6 +186,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/关联分析/Apriori算法/Apriori算法简单商品购买关联规则发现.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="乘客存活概率预测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/集成学习/Bagging和随机森林" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/集成学习/Bagging和随机森林/乘客存活概率预测.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="预测结果评价" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习常用脚本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -344,7 +357,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.预测结果评价" />
         <item itemvalue="Python.Apriori算法简单商品购买关联规则发现" />
         <item itemvalue="Python.葡萄酒数据集分类" />
         <item itemvalue="Python.使用sklearn决策树分类iris数据集" />
@@ -400,11 +412,13 @@
       <workItem from="1553681283313" duration="2582000" />
       <workItem from="1553858407727" duration="2300000" />
       <workItem from="1553947060638" duration="1485000" />
+      <workItem from="1554032821070" duration="1773000" />
+      <workItem from="1554035991113" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91887000" />
+    <option name="totallyTimeSpent" value="93662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,7 +432,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2551495" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26179403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -433,7 +447,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033224" side_tool="true" weight="0.44460028" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.36886394" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49966776" visible="true" weight="0.5147265" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49966776" visible="true" weight="0.33660588" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -449,8 +463,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/近邻算法/datingTestSet.txt" />
-    <entry file="file://$PROJECT_DIR$/近邻算法/k-近邻实战之完整可用系统.py" />
     <entry file="file://$PROJECT_DIR$/决策树/README.md" />
     <entry file="file://$USER_HOME$/Anaconda3/envs/MachineLearning/Lib/site-packages/matplotlib/axes/_axes.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -485,13 +497,7 @@
     <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/data/horseColicTrain.txt" />
     <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/data/horseColicTest.txt" />
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/data/datingSet.txt" />
-    <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/data/rawdata.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/data/rawdata.txt" />
     <entry file="file://$PROJECT_DIR$/决策树/Sklearn决策树使用.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -623,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/预测分析/BP神经网络模型/errorhistory.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -658,19 +657,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/sklearn线性回归之Logistic回归.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-876">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/线性回归之Logistic回归/sklearn线性回归之Logistic回归.py" />
     <entry file="file://$PROJECT_DIR$/机器学习常用脚本/预测结果评价.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/集成学习/Bagging和随机森林/data/test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/集成学习/Bagging和随机森林/data/result.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/集成学习/Bagging和随机森林/乘客存活概率预测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding>
+            <element signature="e#21#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
