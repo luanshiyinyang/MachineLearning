@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f54d330b-a9f9-4dd7-bc9a-2acf0628567b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +33,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/集成学习/Boosting和AdaBoost/使用AdaBoost进行分类.py">
+        <entry file="file://$PROJECT_DIR$/数据降维与压缩/PCA主成分分析/sklearn中PCA使用.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-              <folding>
-                <element signature="e#6#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="19">
+              <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -99,13 +96,14 @@
         <option value="$PROJECT_DIR$/集成学习/Bagging和随机森林/乘客存活概率预测.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/集成学习/Boosting和AdaBoost/使用AdaBoost进行分类.py" />
+        <option value="$PROJECT_DIR$/数据降维与压缩/PCA主成分分析/sklearn中PCA使用.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="431" />
-    <option name="width" value="979" />
-    <option name="height" value="1041" />
+    <option name="x" value="430" />
+    <option name="width" value="980" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -126,13 +124,13 @@
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="集成学习" type="462c0819:PsiDirectoryNode" />
+              <item name="数据降维与压缩" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="集成学习" type="462c0819:PsiDirectoryNode" />
-              <item name="Bagging和随机森林" type="462c0819:PsiDirectoryNode" />
+              <item name="数据降维与压缩" type="462c0819:PsiDirectoryNode" />
+              <item name="PCA主成分分析" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.使用AdaBoost进行分类">
+  <component name="RunManager" selected="Python.sklearn中PCA使用">
     <configuration name="葡萄酒数据集分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,6 +197,9 @@
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/集成学习/Boosting和AdaBoost" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -353,20 +354,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="使用sklearn决策树CART算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sklearn中PCA使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类问题/决策树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据降维与压缩/PCA主成分分析" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分类问题/决策树/使用sklearn决策树CART算法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据降维与压缩/PCA主成分分析/sklearn中PCA使用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -399,11 +397,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sklearn中PCA使用" />
         <item itemvalue="Python.使用AdaBoost进行分类" />
         <item itemvalue="Python.Apriori算法简单商品购买关联规则发现" />
         <item itemvalue="Python.葡萄酒数据集分类" />
         <item itemvalue="Python.使用sklearn决策树分类iris数据集" />
-        <item itemvalue="Python.使用sklearn决策树CART算法" />
       </list>
     </recent_temporary>
   </component>
@@ -457,12 +455,13 @@
       <workItem from="1553947060638" duration="1485000" />
       <workItem from="1554032821070" duration="1773000" />
       <workItem from="1554035991113" duration="2000" />
-      <workItem from="1554108292862" duration="967000" />
+      <workItem from="1554108292862" duration="1244000" />
+      <workItem from="1554206040469" duration="1232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94629000" />
+    <option name="totallyTimeSpent" value="96138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,7 +475,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26511627" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26843855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -491,11 +490,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033224" side_tool="true" weight="0.44460028" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.36886394" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49966776" visible="true" weight="0.4347826" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49966776" visible="true" weight="0.41234222" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49509117" visible="true" weight="0.38870433" />
+      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.49509117" visible="true" weight="0.29169434" />
       <window_info anchor="right" id="Database" order="4" weight="0.32956812" />
       <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="5" sideWeight="0.50490886" side_tool="true" weight="0.2757475" />
     </layout>
@@ -507,13 +506,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/envs/MachineLearning/Lib/site-packages/matplotlib/axes/_axes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-932">
-          <caret line="645" column="8" selection-start-line="645" selection-start-column="8" selection-end-line="645" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/决策树/隐形眼镜数据集.txt" />
     <entry file="file://$PROJECT_DIR$/近邻算法/README.md" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/74793812/Cython/Compiler/FusedNode.py" />
@@ -736,11 +728,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/集成学习/Boosting和AdaBoost/使用AdaBoost进行分类.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        <state relative-caret-position="57">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
             <element signature="e#6#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据降维与压缩/PCA主成分分析/sklearn中PCA使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
